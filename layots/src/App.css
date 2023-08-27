@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.icon-switch {
+    max-width: 1200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-150px, 20px);
+}
+.material-icons-button {
+    border: none;
+    background-color: transparent;
+}
+
+.card-view {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding-top: 45px;
+    min-width: 400px;
+}
+
+.card {
+    flex-direction: column;
+    width: 300px;
+    padding: 15px 70px 0 0;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    padding-top: 5px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2)
+}
+
+.card-name {
+    display: block;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.card-price {
+    color: red;
+}
+
+.add-card {
+    color: red;
+    border: 1px solid red;
+    border-radius: 30px;
+    height: 30px;
+    background-color: transparent;
+    font-size: 10px;
+    font-weight: 600;
+    width: 110px;
+}
+
+.list-view {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-top: 55px;
+    
+    max-width: 1200px;
+    /* margin: 0 15px 55px -20px; */
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.item {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+
+    max-width: 100%;
+    /* margin-bottom: -1px; */
+    background-color: #f3f2f27c;
+
+    border: none;
+    align-items: center;
+
+    min-width: 500px;
+    margin-bottom: 3px;
+}
+
+.item-img {
+    width: 100px;
+    max-width: 100%;
+}
+
+.item-add {
+    color: red;
+    border: 1px solid red;
+    border-radius: 30px;
+    height: 30px;
+    background-color: transparent;
+    font-size: 10px;
+    font-weight: 600;
+    width: 110px;
+    margin-right: 15px;
+}
+
+.item-name {
+    display: block;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.item-price {
+    color: red;
+}
